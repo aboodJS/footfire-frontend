@@ -1,0 +1,83 @@
+:root {
+  --blue: rgb(52, 52, 255);
+  --gray: rgb(231, 231, 231);
+}
+
+body {
+  display: grid;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.button {
+  background-color: var(--blue);
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(72, 72, 255);
+}
+
+.search {
+  outline: none;
+  padding: 5px;
+  background-color: var(--gray);
+  border-radius: 3px;
+  border: none;
+}
+
+.search:focus {
+  outline: 2px solid var(--blue);
+}
+
+.searchresult {
+  background-color: var(--gray);
+  list-style: none;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.resultlist {
+  justify-self: center;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  width: 300px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 10px;
+  width: 15vw;
+  height: 50vh;
+  background-color: var(--gray);
+  display: grid;
+  align-content: space-evenly;
+  gap: 5px;
+  border-radius: 6px;
+}
+
+.sidebar > a {
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.searchbox {
+  width: fit-content;
+  justify-self: center;
+}

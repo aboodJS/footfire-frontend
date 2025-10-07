@@ -1,0 +1,19 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
