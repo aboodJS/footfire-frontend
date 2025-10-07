@@ -78,6 +78,7 @@ body {
 }
 
 .searchbox {
+  display: flex;
   width: fit-content;
   justify-self: center;
 }
