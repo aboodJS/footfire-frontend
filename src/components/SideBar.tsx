@@ -1,12 +1,14 @@
+import { Link } from "react-router";
+
 function SideBar() {
   return (
     <>
       <aside className="sidebar">
-        <a href="#">La Liga</a>
-        <a href="#">Premier League</a>
-        <a href="#">Ligue 1</a>
-        <a href="#">Bundesliga</a>
-        <a href="#">Serie A</a>
+        <Link to="/LaLiga">La Liga</Link>
+        <Link to="/PL">Premier League</Link>
+        <Link to="/LigueOne">Ligue 1</Link>
+        <Link to="/BundesLiga">Bundesliga</Link>
+        <Link to="/SerieA">Serie A</Link>
       </aside>
     </>
   );
