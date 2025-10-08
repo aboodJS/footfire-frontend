@@ -1,3 +1,5 @@
+@import "../index.css";
+
 .navbar {
   position: sticky;
   top: 0;
@@ -16,4 +18,14 @@
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.link {
+  background-color: var(--blue);
+  border-radius: 3px;
+  padding-inline: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05rem;
 }
