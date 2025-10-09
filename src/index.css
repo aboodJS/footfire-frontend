@@ -1,6 +1,7 @@
 :root {
   --blue: rgb(52, 52, 255);
   --gray: rgb(231, 231, 231);
+  --dark-gray: rgb(194, 194, 194);
 }
 
 body {

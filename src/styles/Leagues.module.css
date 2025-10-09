@@ -1,0 +1,38 @@
+@import url("../index.css");
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+}
+
+ul {
+  display: grid;
+  justify-self: center;
+  width: fit-content;
+  list-style: none;
+  padding: 0%;
+  background-color: var(--gray);
+  border-radius: 3px;
+  gap: 15px;
+}
+
+li {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+li:hover {
+  background-color: var(--dark-gray);
+}
+
+li > img {
+  height: 70px;
+  width: 70px;
+}
