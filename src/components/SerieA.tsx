@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/Leagues.module.css";
+import TeamBox from "./TeamBox.tsx";
 
 function SerieA() {
   const [data, setData] = useState();
@@ -29,7 +30,7 @@ function SerieA() {
         {loading === true ? (
           <p>loading</p>
         ) : (
-          data.teams.map((elem, i) => {
+          data.teams.map((elem: object, i: number) => {
             return (
               <li key={i}>
                 <img src={elem.strBadge} alt="" />
