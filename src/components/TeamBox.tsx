@@ -1,4 +1,4 @@
-function TeamBox(name: string, badge: string, Id: number): JSX.Element {
+function TeamBox(name: string, badge: string, Id: number) {
   return (
     <li key={Id}>
       <img src={badge} alt="" />

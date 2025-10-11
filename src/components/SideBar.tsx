@@ -4,11 +4,11 @@ function SideBar() {
   return (
     <>
       <aside className="sidebar">
-        <Link to="/LaLiga">La Liga</Link>
-        <Link to="/PL">Premier League</Link>
-        <Link to="/LigueOne">Ligue 1</Link>
-        <Link to="/BundesLiga">Bundesliga</Link>
-        <Link to="/SerieA">Serie A</Link>
+        <Link to="/leagues/English_Premier_League">Premier League</Link>
+        <Link to="/leagues/Spanish_La_liga">La Liga</Link>
+        <Link to="/leagues/French_ligue_1">Ligue 1</Link>
+        <Link to="/leagues/Italian_Serie-A">Serie A</Link>
+        <Link to="/leagues/German_bundesliga">Bundesliga</Link>
       </aside>
     </>
   );
