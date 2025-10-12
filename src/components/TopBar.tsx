@@ -11,8 +11,12 @@ function TopBar() {
         <h1>FootFire</h1>
       </div>
       <div className={styles.btnbox}>
-        <button className="button">Log in</button>
-        <button className="button">Sign up</button>
+        <Link className={styles.link} to={"/login"}>
+          Log in
+        </Link>
+        <Link className={styles.link} to={"/Signup"}>
+          Sign up
+        </Link>
         <Link className={styles.link} to={"/about"}>
           about
         </Link>
