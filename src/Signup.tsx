@@ -12,7 +12,7 @@ function Signup() {
         </h1>
         <div>
           <h2>sign up</h2>
-          <form action="#" method="get">
+          <form action="http://localhost:5000/signup" method="post">
             <div className={styles.grid}>
               <label htmlFor="username">username:</label>
               <input

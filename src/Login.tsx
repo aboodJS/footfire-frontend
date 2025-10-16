@@ -11,7 +11,7 @@ function Login() {
         </h1>
         <div>
           <h2>Log in</h2>
-          <form action="#" method="get">
+          <form action="http://localhost:5000/login" method="get">
             <div className={styles.grid}>
               <label htmlFor="username">username:</label>
               <input
