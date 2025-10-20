@@ -8,9 +8,8 @@ main {
   text-align: center;
 }
 
-form {
+.form {
   text-align: left;
-
   display: grid;
   border-radius: 6px;
   width: 600px;

@@ -10,40 +10,28 @@ function Signup() {
             FootFire⚽🔥
           </Link>
         </h1>
-        <div>
+        <div className={styles.form}>
           <h2>sign up</h2>
-          <form action="http://localhost:5000/signup" method="post">
-            <div className={styles.grid}>
-              <label htmlFor="username">username:</label>
-              <input
-                placeholder="Enter your username"
-                type="text"
-                name="username"
-                className={styles.userInput}
-              />
-            </div>
-            <div className={styles.grid}>
-              <label htmlFor="password">password:</label>
 
-              <input
-                placeholder="Enter your password"
-                type="password"
-                name="password"
-                className={styles.userInput}
-              />
-            </div>
-            <div className={styles.grid}>
-              <label htmlFor="password">confirm your password:</label>
-
-              <input
-                placeholder="Enter your password again"
-                type="password"
-                name="password"
-                className={styles.userInput}
-              />
-            </div>
-            <input className="button" type="submit" value="sign up" />
-          </form>
+          <div className={styles.grid}>
+            <label htmlFor="username">username:</label>
+            <input
+              className={styles.userInput}
+              name="username"
+              type="text"
+              required
+            />
+          </div>
+          <div className={styles.grid}>
+            <label htmlFor="passwd">password:</label>
+            <input
+              className={styles.userInput}
+              name="passwd"
+              type="password"
+              required
+            />
+          </div>
+          <button className="button">Signup</button>
           <p>
             already have an account? <Link to={"/login"}>login</Link>
           </p>
